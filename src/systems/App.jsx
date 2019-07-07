@@ -9,7 +9,6 @@ export default class App extends React.Component {
 	render() {
 		const model = this.props
 		return (
-
 			<div style={{textAlign: 'center'}}>
 				<h1>Hello World</h1>
 				<div>Count: {model.count}</div>
