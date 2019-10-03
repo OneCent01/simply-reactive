@@ -1,7 +1,5 @@
 # Simply Reactive
 ___
-___
-
 
 Simple blank react application template with several useful utilities:
 - Flux style front end management system
@@ -10,7 +8,6 @@ Simple blank react application template with several useful utilities:
 
 
 # Steps to get started
-___
 
 1. Clone the library from GitHub, 
 2. install the dependencies using npm install, 
@@ -19,9 +16,8 @@ ___
 
 
 # Modules
-___
 
-# Model
+## Model
 
 ### About
 
@@ -29,7 +25,7 @@ ___
 
 ### Single Source of Truth
 
-# React
+## React
 
 ### Semantic Breakdown
 Traditionally, components are divided into two categories: reusable components and views built from them. In the `react` folder you'll see I have two folders to contain these components, which I've decided to call components and systems. Calling the views 'systems' is a semantic choice, as not every system is its own view, but may be a subview (component) in a more complex view. 
@@ -49,6 +45,6 @@ Traditionally, components are divided into two categories: reusable components a
 
 
 
-# Server Utilities
+## Server Utilities
 
 *fetch*
