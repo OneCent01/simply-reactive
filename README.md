@@ -20,10 +20,13 @@ Simple blank react application template with several useful utilities:
 ## Model
 
 ### About
+*about text*
 
 ### Flux
+*what+why flux*
 
 ### Single Source of Truth
+*Opinion: SST is bestest*
 
 ## React
 
@@ -32,17 +35,17 @@ Traditionally, components are divided into two categories: reusable components a
 
 ### Components
 
-*Card*
+**Card**
+The card is a card
 
+**ContextMenu**
+The ContextMenu is a ContextMenu
 
-*ContextMenu*
+**DataTable**
+The DataTable is a DataTable
 
-
-*DataTable*
-
-
-*InputText*
-
+**InputText**
+The InputText is a InputText
 
 
 ## Server Utilities
