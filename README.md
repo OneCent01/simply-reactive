@@ -17,6 +17,7 @@ Simple blank react application template with several useful utilities:
 
 # Modules
 
+
 ## Model
 
 ### About
@@ -28,6 +29,8 @@ Simple blank react application template with several useful utilities:
 ### Single Source of Truth
 *Opinion: SST is bestest*
 
+
+
 ## React
 
 ### Semantic Breakdown
@@ -36,16 +39,24 @@ Traditionally, components are divided into two categories: reusable components a
 ### Components
 
 **Card**
+
 The card is a card
 
+
 **ContextMenu**
+
 The ContextMenu is a ContextMenu
 
+
 **DataTable**
+
 The DataTable is a DataTable
 
+
 **InputText**
+
 The InputText is a InputText
+
 
 
 ## Server Utilities
