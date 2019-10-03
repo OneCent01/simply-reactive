@@ -1,22 +1,14 @@
-let model = {
-	count: 0
-}
-const subscribers = []
+import counterReducers from './reducers/counter'
+// import additional reducer files here
+
+import initState from './modelTemplate'
+
+import createStore from './flux.js'
 
 const reducers = {
-	INCREMENT: (state, action) => ({...state, count: state.count+1}),
-	DECREMENT: (state, action) => ({...state, count: state.count-1})
+	...counterReducers
+	// and pass them into the combined reducers 
+	// object here using the spread operator
 }
 
-const reduce = (state, action) => reducers[action.type] ? reducers[action.type](state, action) : state
-
-const modelApi = {
-	getState: () => model,
-	dispatch: (action) => {
-		model = reduce(model, action)
-		subscribers.forEach(sub => sub(model))
-	},
-	subscribe: fn => subscribers.push(fn)
-}
-
-export default modelApi
+export default createStore(initState, reducers)
